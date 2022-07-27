@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shop_ui/constants.dart';
 import 'package:shop_ui/screens/home/HomeScreen.dart';
 
 void main() {
@@ -15,6 +16,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'shop ui',
       theme: ThemeData(
+        scaffoldBackgroundColor: bgColor,
         primarySwatch: Colors.blue,
         fontFamily: "Gordita",
         textTheme: const TextTheme(

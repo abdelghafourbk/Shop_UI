@@ -75,12 +75,12 @@ flutter:
   fonts:
     - family: Gordita
       fonts:
-        - asset: assets/fonts/Gordita-Regular.otf
-        - asset: assets/fonts/Gordita-Medium.otf
+        - asset: assets/fonts/Gordita_Regular.otf
+        - asset: assets/fonts/Gordita_Medium.otf
           weight: 500
-        - asset: assets/fonts/Gordita-Bold.otf
+        - asset: assets/fonts/Gordita_Bold.otf
           weight: 700
-        - asset: assets/fonts/Gordita-Light.otf
+        - asset: assets/fonts/Gordita_Light.otf
           weight: 300
   #   - family: Trajan Pro
   #     fonts:
