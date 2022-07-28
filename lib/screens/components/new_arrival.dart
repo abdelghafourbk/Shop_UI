@@ -4,6 +4,7 @@ import 'package:shop_ui/screens/components/section_title.dart';
 
 import '../../constants.dart';
 import '../../models/product.dart';
+import '../details/DetailsScreen.dart';
 
 class NewArrival extends StatelessWidget {
   const NewArrival({
@@ -31,7 +32,15 @@ class NewArrival extends StatelessWidget {
                   title: demo_product[index].title,
                   price: demo_product[index].price,
                   bgColor: demo_product[index].bgColor,
-                  pressProduct: () {},
+                  pressProduct: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => DetailsScreen(
+                            product: demo_product[index],
+                          ),
+                        ));
+                  },
                 ),
               ),
             ),
